@@ -5,7 +5,7 @@ export const StoreContext = createContext(null);
 const StoreContextProvider = (props) => {
 
     const [cartItems,setCartItems] = useState({});
-    const [ordersData,setOrdersData] = useState({});
+    // const [ordersData,setOrdersData] = useState({});
     
     const addToCart = (itemId) =>{
         if(!cartItems[itemId])
