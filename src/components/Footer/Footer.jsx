@@ -9,10 +9,8 @@ const Footer = () => {
         <div className="footer-content-left">
           <img src={assets.logo} alt="" />
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+          Let`s celebrate life, one slice at a time! 🍰🎉
+
           </p>
         </div>
         <div className="footer-content-center">
@@ -27,8 +25,8 @@ const Footer = () => {
         <div className="footer-content-right">
           <h2>GET IN TOUCH</h2>
           <ul>
-            <li>+91-9992342xxx</li>
-            <li>contact@cakepreneur.com</li>
+            <li>+1 (555) 123-4567</li>
+            <li>info@cakepreneur.com</li>
             <div className="footer-social-icons">
               <a href="https://www.facebook.com" target="_blank">
                 <img src={assets.facebook_icon} alt="" />
