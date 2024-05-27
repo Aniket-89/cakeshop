@@ -5,6 +5,9 @@ import './index.css'
 import { BrowserRouter } from 'react-router-dom'
 import StoreContextProvider from './Context/StoreContext'
 
+// debug
+console.log('Starting App...')
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <StoreContextProvider>
@@ -12,3 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </StoreContextProvider>
   </BrowserRouter>,
 )
+
+// debug
+console.log('App started successfully')
+
