@@ -17,7 +17,7 @@
     font-size: 18px;
 }
 
-.navbar-menu .active {
+.navbar-menu-m .active {
     padding-bottom: 2px;
     border-bottom: 2px solid #49557E;
 }
@@ -42,19 +42,19 @@ position: relative;
     right: -8px;
 }
 
-.navbar-right button {
-    background: transparent;
+.whatsapp-btn {
+    background: #FDAFCD;
     font-size: 16px;
-    color: #49557E;
-    border: 1px solid #FF4C24;
+    color: #071339;
+    border: 1px solid #7E255D;
     padding: 10px 30px;
     border-radius: 50px;
     cursor: pointer;
     transition: 0.3s;
 }
 
-.navbar-right button:hover {
-    background: #fff4f2;
+.whatsapp-btn:hover {
+    background: #fffcff;
 }
 
 @media (max-width:1050px) {
@@ -103,9 +103,49 @@ position: relative;
         padding: 7px 20px;
     }
 }
+.mobile-hide {
+    display: block;
+}
 
-@media (max-width:750px) {
+.menu-icon {
+    display: none;
+}
+
+@media screen and (max-width: 794px) {
     .navbar-menu {
+      display: none;
+
+    }
+    .menu-icon {
+        display: block;
+    }
+    .mobile-hide {
         display: none;
     }
+    .navbar-menu-m {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 90%;
+        height: 70vh;
+        padding: 30px;
+        
+        position: absolute;
+        top: 130px;
+        /* right: 0; */
+        
+        font-size: 34px;
+        z-index: 3;
+        background: #FFFFFF;
+        text-align: left;
+        transition: all 0.5s ease;
+
+        border: 1px solid #071339;
+        border-radius: 15px;
+  }
+  .navbar-menu-m .active {
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557E;
 }
+}
+ 

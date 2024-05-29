@@ -55,7 +55,10 @@ import twitter_icon from './twitter_icon.png'
 import cross_icon from './cross_icon.png'
 import selector_icon from './selector_icon.png'
 
+import header from './header.jpg'
+
 export const assets = {
+    header,
     logo,
     basket_icon,
     header_img,
