@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .navbar .logo {
@@ -17,7 +18,7 @@
     font-size: 18px;
 }
 
-.navbar-menu-m .active {
+.navbar-menu .active {
     padding-bottom: 2px;
     border-bottom: 2px solid #49557E;
 }
@@ -30,6 +31,9 @@
 
 .navbar-search-icon{
 position: relative;
+}
+.navbar-search-icon > img {
+    width: 40px;
 }
 
 .navbar-search-icon .dot{

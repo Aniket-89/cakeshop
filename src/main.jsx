@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom'
 import StoreContextProvider from './Context/StoreContext'
 
 // debug
-console.log('Starting App...')
+// console.log('Starting App...')
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>

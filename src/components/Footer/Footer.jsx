@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import { assets } from "../../assets/assets";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -14,12 +15,11 @@ const Footer = () => {
           </p>
         </div>
         <div className="footer-content-center">
-          <h2>COMPANY</h2>
+          <h2>Useful Links</h2>
           <ul>
-            <li>Home</li>
-            <li>About us</li>
-            <li>Delivery</li>
-            <li>Privacy policy</li>
+            <li><Link to="/" >Home</Link></li>
+            <li><Link to="/aboutus" >About Us</Link></li>
+            <li><Link to="/contactus" >Contact Us</Link></li>
           </ul>
         </div>
         <div className="footer-content-right">
@@ -28,7 +28,7 @@ const Footer = () => {
             <li>+1 (555) 123-4567</li>
             <li>info@cakepreneur.com</li>
             <div className="footer-social-icons">
-              <a href="https://www.facebook.com" target="_blank">
+              <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
                 <img src={assets.facebook_icon} alt="" />
               </a>
               <a href="">
