@@ -10,6 +10,9 @@ import { assets } from "../../assets/assets";
 const ContactUs = () => {
   return (
     <>
+      <div className="contact-banner">
+    <h2 className="main-heading">Contact Us</h2>
+      </div>
     <div className="contact">
         <div className="container"> 
             <Address />

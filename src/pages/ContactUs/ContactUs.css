@@ -1,0 +1,24 @@
+.contact-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18vw;
+    margin: 30px auto;
+    background: url('../../assets/header.png') no-repeat;
+    background-size:cover; 
+    background-position-y: center;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+
+.main-heading {
+    border-radius: 1rem;
+    font-size: 4rem;
+    padding: 5px 20px;
+    text-align: center;
+    line-height: 1.2;
+    color: #4b1148;
+    background-color: rgba(228, 226, 246, 0.3);
+}

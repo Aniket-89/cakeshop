@@ -12,10 +12,37 @@ li {
     width: 50%;
 }
 
+.about-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18vw;
+    margin: 30px auto;
+    background: url('../../assets/header.png') no-repeat;
+    background-size:cover; 
+    background-position-y: center;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+
+.main-heading {
+    border-radius: 1rem;
+    font-size: 4rem;
+    padding: 5px 20px;
+    text-align: center;
+    line-height: 1.2;
+    color: #4b1148;
+    background-color: rgba(228, 226, 246, 0.3);
+}
+
+
 .about-container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    /* overflow: hidden; */
     justify-content: space-between;
     align-items: center;
     margin: 40px 0;
@@ -70,4 +97,47 @@ li {
         
         width: 100%;
     }
+  }
+
+  .founder-section {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between;   */
+    margin: 40px 0;
+
+  }
+  .founder-list {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 30px
+  }
+
+  .founder-card {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    overflow: hidden;
+    max-width: 400px;
+    height: 400px;
+    /* padding: 20px; */
+    
+    border: 1px solid grey;
+    border-radius: 15px;
+
+  }
+
+  .founder-card-content {
+    padding: 2px 20px 20px 20px;
+
+  }
+
+  .founder-img {
+    object-fit: cover;
+    margin: 0;
+    height: 70%;
+    width: 100%; 
+    
   }
