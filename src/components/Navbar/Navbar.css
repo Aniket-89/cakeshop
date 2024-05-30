@@ -102,6 +102,9 @@ position: relative;
     .navbar .logo {
         width: 90px;
     }
+    .navbar.scrolled .logo {
+        width: 70px; /* Adjust logo size when scrolled */
+      }
 
     .navbar-menu {
         gap: 15px;
