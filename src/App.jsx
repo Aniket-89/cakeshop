@@ -12,14 +12,13 @@ import ContactUs from './pages/ContactUs/ContactUs'
 
 
 const App = () => {
-
 //   const [showLogin,setShowLogin] = useState(false);
 
   return (
     <>
     {/* {showLogin?<LoginPopup setShowLogin={setShowLogin}/>:<></>} */}
       <div className='app'>
-        <Navbar/>
+        <Navbar />
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/cart' element={<Cart/>}/>

@@ -1,14 +1,28 @@
 .navbar {
-    padding: 20px 0px;
+    padding: 15px 20px 15px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #F8F7F4;
+    transition: padding 0.3s ease, box-shadow 0.3s ease;
 }
 
-.navbar .logo {
-    width: 100px;
-}
+.navbar.scrolled {
+    padding: 10px 15px; /* Adjust padding when scrolled */
+    background: linear-gradient(to bottom, #F8F7F4 95%, rgba(196, 195, 190, 0.178));
+  }
+  
+  .navbar .logo {
+    width: 150px; /* Default logo size */
+    transition: width 0.3s ease; /* Smooth transition */
+  }
+  
+  .navbar.scrolled .logo {
+    width: 100px; /* Adjust logo size when scrolled */
+  }
 
 .navbar-menu {
     display: flex;
@@ -121,6 +135,7 @@ position: relative;
 
     }
     .menu-icon {
+        
         display: block;
     }
     .mobile-hide {

@@ -7,8 +7,20 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
   const { getTotalCartAmount } = useContext(StoreContext);
   const location = useLocation();
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 0);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   useEffect(() => {
     // Close the menu when the location changes
@@ -31,8 +43,8 @@ const Navbar = () => {
   const isActive = (path) => location.pathname === path;
 
   return (
-    <div className='navbar'>
-      <Link to='/'><img className='logo' src={assets.logo} alt="" /></Link>
+    <div className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
+      <Link to='/'><img className='logo' src={assets.logo} alt="Logo" /></Link>
       <ul className="navbar-menu">
         <Link to="/" className={isActive("/") ? "active" : ""}>Home</Link>
         <Link to="/aboutus" className={isActive("/aboutus") ? "active" : ""}>About Us</Link>
@@ -46,7 +58,7 @@ const Navbar = () => {
       </ul>
       <div className="navbar-right">
         <Link to='/cart' className='navbar-search-icon'>
-          <img src={assets.trolley} alt="" />
+          <img src={assets.trolley} alt="Cart" />
           <div className={getTotalCartAmount() > 0 ? "dot" : ""}></div>
         </Link>
         <div className="menu-icon" onClick={toggleMenu}>

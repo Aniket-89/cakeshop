@@ -31,10 +31,10 @@ const AboutUs = () => {
             <h3 className="heading">Our Story</h3>
             <p className="text">
               Cakepreneur was born out of a kitchen filled with flour, sugar,
-              and dreams. Our founder, Jane, started baking custom cakes for
+              and dreams. Our founder, Ms Anu Choudhury, started baking custom cakes for
               friends and family. Word spread, and soon she was creating
               masterpieces for weddings, birthdays, and celebrations. Driven by
-              her passion, Jane assembled a team of talented cake artists, and
+              her passion, Ms Anu assembled a team of talented cake artists, and
               Cakepreneur was officially launched.
             </p>
           </div>
@@ -103,9 +103,10 @@ const AboutUs = () => {
                   <img className="founder-img" src={assets.founder} alt="" />
                   <div className="founder-card-content">
 
-                  <h3 className="name">Ms. Anu Choudhary</h3>
-                  <h4 className="sub-heading">Founder & Chief Cake Artist</h4>
-                  <p className="text">The creative genius behind our designs.</p>
+                  <h3 className="name">David</h3>
+                  <h4 className="sub-heading">Operations Manager</h4>
+                  <p className="text">Ensures smooth cake production and timely deliveries.
+</p>
                   </div>
 
                 </div>
@@ -115,9 +116,11 @@ const AboutUs = () => {
                   <img className="founder-img" src={assets.founder} alt="" />
                   <div className="founder-card-content">
 
-                  <h3 className="name">Ms. Anu Choudhary</h3>
-                  <h4 className="sub-heading">Founder & Chief Cake Artist</h4>
-                  <p className="text">The creative genius behind our designs.</p>
+                  <h3 className="name">Lily</h3>
+                  <h4 className="sub-heading">Customer Relations</h4>
+                  <p className="text">Your go-to person for cake queries and orders.
+
+</p>
                   </div>
                 </div>
               </li>
