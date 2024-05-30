@@ -4,14 +4,7 @@ import header_img from './header_img.png'
 import search_icon from './search_icon.png'
 import trolley from './trolley.png'
 import founder from './cake_founder.jpg'
-import menu_1 from './menu_1.png'
-import menu_2 from './menu_2.png'
-import menu_3 from './menu_3.png'
-import menu_4 from './menu_4.png'
-import menu_5 from './menu_5.png'
-import menu_6 from './menu_6.png'
-import menu_7 from './menu_7.png'
-import menu_8 from './menu_8.png'
+
 import rating_starts from './rating_starts.png'
 import cake_1 from './cake_1.jpg'
 import cake_2 from './cake_2.jpg'
@@ -76,7 +69,7 @@ export const menu_list = [
     },
     {
         menu_name: "Chef's Pick",
-        menu_image: header
+        menu_image: cake
     },
     {
         menu_name: "Theme Cakes",
