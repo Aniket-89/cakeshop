@@ -40,7 +40,7 @@ const ContactForm = () => {
 
   return (
     <div className=''>
-      <h6 className="heading"><span className="light-text">Have a cake idea? </span><br /><span className="light-text">Need a sweet centerpiece for your event? </span><br />Drop a message...</h6>
+      <h6 className="heading">Have a cake idea?<br /><span className="light-text">Need a sweet centerpiece for your event? </span><br />Drop a message...</h6>
       <form className='contact-form'>
         <div className="form-group">
           <label>Name</label>
