@@ -18,7 +18,7 @@ li {
     align-items: center;
     height: 18vw;
     /* margin: 1px auto; */
-    background: url('../../assets/header.png') no-repeat;
+    background: url('../../assets/about_banner.jpg') no-repeat;
     background-size:cover; 
     background-position-y: center;
     position: relative;

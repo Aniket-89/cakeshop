@@ -1,5 +1,5 @@
 .navbar {
-    padding: 15px 20px 15px 0px;
+    padding: 15px 20px 20px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,6 +9,8 @@
     background-color: #F8F7F4;
     transition: padding 0.3s ease, box-shadow 0.3s ease;
 }
+
+
 
 .navbar.scrolled {
     padding: 10px 15px; /* Adjust padding when scrolled */

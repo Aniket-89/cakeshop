@@ -4,12 +4,18 @@ import header_img from './header_img.png'
 import search_icon from './search_icon.png'
 import trolley from './trolley.png'
 import founder from './cake_founder.jpg'
+import about_banner from './about_banner.jpg'
+import contact_banner from './contact_banner.jpg'
+import home_banner from './home_banner.jpg'
 
 import rating_starts from './rating_starts.png'
 import cake_1 from './cake_1.jpg'
 import cake_2 from './cake_2.jpg'
 import cake_3 from './cake_3.jpg'
 import cake_4 from './cake_4.jpg'
+import cake_5 from './cake_5.jpg'
+import cake_6 from './cake_6.jpg'
+import cake_7 from './cake_7.jpg'
 import cake from './cake.jpg'
 
 import add_icon_white from './add_icon_white.png'
@@ -26,10 +32,16 @@ import selector_icon from './selector_icon.png'
 import header from './header.jpg'
 
 export const assets = {
+    about_banner,
+    contact_banner,
+    home_banner,
     cake_1,
     cake_2,
     cake_3,
     cake_4,
+    cake_5,
+    cake_6,
+    cake_7,
     founder,
     trolley,
     header,
@@ -73,15 +85,15 @@ export const menu_list = [
     },
     {
         menu_name: "Theme Cakes",
-        menu_image: header
+        menu_image: cake_5
     },
     {
         menu_name: "Anniversary",
-        menu_image: header
+        menu_image: cake_7
     },
     {
         menu_name: "Kid's",
-        menu_image: header
+        menu_image: cake_6
     }]
 
 export const food_list = [
@@ -110,14 +122,14 @@ export const food_list = [
     }, {
         food_id: 4,
         food_name: "Cake",
-        food_image: cake,
+        food_image: cake_5,
         food_price: 24,
         food_desc: "Food provides essential nutrients for overall health and well-being",
         food_category: "Photo Cakes"
     }, {
         food_id: 5,
         food_name: "Cake",
-        food_image: cake,
+        food_image: cake_6,
         food_price: 14,
         food_desc: "Food provides essential nutrients for overall health and well-being",
         food_category: "Eggless Cakes"
@@ -138,7 +150,7 @@ export const food_list = [
     }, {
         food_id: 8,
         food_name: "Cake",
-        food_image: cake,
+        food_image: cake_7,
         food_price: 15,
         food_desc: "Food provides essential nutrients for overall health and well-being",
         food_category: "Best Sellers"

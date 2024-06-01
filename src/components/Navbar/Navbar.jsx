@@ -44,7 +44,7 @@ const Navbar = () => {
 
   return (
     <div className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
-      <Link to='/'><img className='logo' src={assets.logo} alt="Logo" /></Link>
+      <Link to='/'><div className="logo-container"><img className='logo' src={assets.logo} alt="Logo" /></div></Link>
       <ul className="navbar-menu">
         <Link to="/" className={isActive("/") ? "active" : ""}>Home</Link>
         <Link to="/aboutus" className={isActive("/aboutus") ? "active" : ""}>About Us</Link>
