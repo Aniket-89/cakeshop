@@ -16,6 +16,19 @@ import cake_4 from './cake_4.jpg'
 import cake_5 from './cake_5.jpg'
 import cake_6 from './cake_6.jpg'
 import cake_7 from './cake_7.jpg'
+import cake_8 from './cake_8.jpg'
+import cake_9 from './cake_9.jpg'
+import cake_10 from './cake_10.jpg'
+import cake_11 from './cake_11.jpg'
+import cake_12 from './cake_12.jpg'
+import cake_13 from './cake_13.jpg'
+import cake_14 from './cake_14.jpg'
+import cake_15 from './cake_15.jpg'
+import cake_16 from './cake_16.jpg'
+import cake_17 from './cake_17.jpg'
+import cake_18 from './cake_18.jpg'
+import cake_19 from './cake_19.jpg'
+import cake_20 from './cake_20.jpg'
 import cake from './cake.jpg'
 
 import add_icon_white from './add_icon_white.png'
@@ -42,6 +55,19 @@ export const assets = {
     cake_5,
     cake_6,
     cake_7,
+    cake_8,
+    cake_9,
+    cake_10,
+    cake_11,
+    cake_12,
+    cake_13,
+    cake_14,
+    cake_15,
+    cake_16,
+    cake_17,
+    cake_18,
+    cake_19,
+    cake_20,
     founder,
     trolley,
     header,
@@ -103,7 +129,7 @@ export const food_list = [
         food_image: cake_1,
         food_price: 12,
         food_desc: "Food provides essential nutrients for overall health and well-being",
-        food_category: "Best Sellers"
+        food_category: "Birthday Cakes"
     },
     {
         food_id: 2,
@@ -111,7 +137,7 @@ export const food_list = [
         food_image: cake_2,
         food_price: 18,
         food_desc: "Food provides essential nutrients for overall health and well-being",
-        food_category: "Photo Cakes"
+        food_category: "Theme Cakes"
     }, {
         food_id: 3,
         food_name: "Cake",
@@ -125,14 +151,14 @@ export const food_list = [
         food_image: cake_5,
         food_price: 24,
         food_desc: "Food provides essential nutrients for overall health and well-being",
-        food_category: "Photo Cakes"
+        food_category: "Birthday Cakes"
     }, {
         food_id: 5,
         food_name: "Cake",
         food_image: cake_6,
         food_price: 14,
         food_desc: "Food provides essential nutrients for overall health and well-being",
-        food_category: "Eggless Cakes"
+        food_category: "Birthday Cakes"
     }, {
         food_id: 6,
         food_name: "Cake",
@@ -157,28 +183,28 @@ export const food_list = [
     }, {
         food_id: 9,
         food_name: "Cake",
-        food_image: cake,
+        food_image: cake_8,
         food_price: 14,
         food_desc: "Food provides essential nutrients for overall health and well-being",
         food_category: "Best Sellers"
     }, {
         food_id: 10,
         food_name: "Cake",
-        food_image: cake,
+        food_image: cake_9,
         food_price: 22,
         food_desc: "Food provides essential nutrients for overall health and well-being",
         food_category: "Photo Cakes"
     }, {
         food_id: 11,
         food_name: "Cake",
-        food_image: cake,
+        food_image: cake_10,
         food_price: 10,
         food_desc: "Food provides essential nutrients for overall health and well-being",
         food_category: "Photo Cakes"
     }, {
         food_id: 12,
         food_name: "Cake",
-        food_image: cake,
+        food_image: cake_11,
         food_price: 12,
         food_desc: "Food provides essential nutrients for overall health and well-being",
         food_category: "Eggless Cakes"
@@ -186,78 +212,64 @@ export const food_list = [
     {
         food_id: 13,
         food_name: "Cake",
-        food_image: cake,
+        food_image: cake_12,
         food_price: 12,
         food_desc: "Food provides essential nutrients for overall health and well-being",
         food_category: "Eggless Cakes"
     },
-    {
-        food_id: 14,
-        food_name: "Cake",
-        food_image: cake,
-        food_price: 18,
-        food_desc: "Food provides essential nutrients for overall health and well-being",
-        food_category: "Eggless Cakes"
-    }, {
+ {
         food_id: 15,
         food_name: "Cake",
-        food_image: cake,
+        food_image: cake_14,
         food_price: 16,
         food_desc: "Food provides essential nutrients for overall health and well-being",
-        food_category: "Eggless Cakes"
+        food_category: "Kid's"
     }, {
         food_id: 16,
         food_name: "Cake",
-        food_image: cake,
+        food_image: cake_15,
         food_price: 24,
         food_desc: "Food provides essential nutrients for overall health and well-being",
         food_category: "Anniversary"
     }, {
         food_id: 17,
         food_name: "Cake",
-        food_image: cake,
+        food_image: cake_16,
         food_price: 14,
         food_desc: "Food provides essential nutrients for overall health and well-being",
-        food_category: "Anniversary"
+        food_category: "Kid's"
     }, {
         food_id: 18,
         food_name: "Cake",
-        food_image: cake,
+        food_image: cake_17,
         food_price: 12,
         food_desc: "Food provides essential nutrients for overall health and well-being",
         food_category: "Anniversary"
     }, {
         food_id: 19,
         food_name: "Cake",
-        food_image: cake,
+        food_image: cake_18,
         food_price: 20,
-        food_desc: "Food provides essential nutrients for overall health and well-being",
-        food_category: "Anniversary"
-    }, {
-        food_id: 20,
-        food_name: "Cake",
-        food_image: cake,
-        food_price: 15,
         food_desc: "Food provides essential nutrients for overall health and well-being",
         food_category: "Anniversary"
     }, {
         food_id: 21,
         food_name: "Cake ",
-        food_image: cake,
+        food_image: cake_20,
         food_price: 14,
         food_desc: "Food provides essential nutrients for overall health and well-being",
-        food_category: "Chef's Pick"
+        food_category: "Kid's"
     }, {
         food_id: 22,
         food_name: "Cake",
-        food_image: cake,
+        food_image: cake_19,
         food_price: 22,
         food_desc: "Food provides essential nutrients for overall health and well-being",
         food_category: "Chef's Pick"
     }, {
         food_id: 23,
         food_name: "Cake",
-        food_image: cake,
+        food_image: cake_13,
         food_price: 10,
         food_desc: "Food provides essential nutrients for overall health and well-being",
         food_category: "Chef's Pick"}
