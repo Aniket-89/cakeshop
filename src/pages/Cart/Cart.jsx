@@ -23,7 +23,7 @@ const Cart = () => {
     <div className='cart'>
       <div className="cart-items">
         <div className="cart-items-title">
-          <p>Items</p> <p>Title</p> <p>Price</p> <p>Quantity</p> <p>Total</p> <p>Remove</p>
+          <p>Items</p> <p>Title</p> <p></p> <p>Price</p> <p>Quantity</p> <p>Total</p> <p>Remove</p>
         </div>
         <br />
         <hr />
@@ -34,7 +34,8 @@ const Cart = () => {
                 <div className="cart-items-title cart-items-item">
                   <img src={item.food_image} alt="" />
                   <p>{item.food_name}</p>
-                  <p>&#x20B9;{item.food_price}</p>
+                  <p>{item.food_weight}</p>
+                  <p>&#x20B9;{item.food_price * item.food_weight}</p>
                   <div>{cartItems[item.food_id]}</div>
                   <p>&#x20B9;{item.food_price * cartItems[item.food_id]}</p>
                   <p className='cart-items-remove-icon' onClick={() => removeFromCart(item.food_id)}>x</p>

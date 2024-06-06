@@ -42,7 +42,7 @@ const FoodItem = ({ image, name, price, desc, id }) => {
         <div className="price-and-weight">
 
         <p className="food-item-price">&#x20B9;{priceValue.toFixed(2)}</p>
-        <div className={weightValue === 1? 'food-item-weight-container' : 'bg-light food-item-weight-container'}>
+        <div className={weightValue === 1? 'food-item-weight-container' : 'bg-white food-item-weight-container'}>
           <img
             src={assets.remove_icon_red}
             onClick={() => handleWeightChange('decrement')}
