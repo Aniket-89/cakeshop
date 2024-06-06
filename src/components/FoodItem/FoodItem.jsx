@@ -1,25 +1,12 @@
-import React, { useContext, useState } from 'react';
-import './FoodItem.css';
-import { assets } from '../../assets/assets';
+import React, { useContext, useState } from 'react'
+import './FoodItem.css'
+import { assets } from '../../assets/assets'
 import { StoreContext } from '../../Context/StoreContext';
 
-const FoodItem = ({ image, name, price, desc, id }) => {
-  const [itemCount, setItemCount] = useState(0);
-  const [weightValue, setWeightValue] = useState(1); // initial weight value
-  const [priceValue, setPriceValue] = useState(price); // initial price value
-  const { cartItems, addToCart, removeFromCart } = useContext(StoreContext);
+const FoodItem = ({ image, name, price, desc , id }) => {
 
-  const handleWeightChange = (operation) => {
-    if (operation === 'increment') {
-      setWeightValue(weightValue + 0.5); // increment weight by 0.5 kg
-      setPriceValue(priceValue + (price / 1) * 0.5); // update price accordingly
-    } else if (operation === 'decrement') {
-      if (weightValue > 1) { // prevent weight from going below 1 kg
-        setWeightValue(weightValue - 0.5); // decrement weight by 0.5 kg
-        setPriceValue(priceValue - (price / 1) * 0.5); // update price accordingly
-      }
-    }
-  };
+    const [itemCount, setItemCount] = useState(0);
+    const {cartItems,addToCart,removeFromCart} = useContext(StoreContext);
 
   return (
     <div className='food-item'>
@@ -42,20 +29,19 @@ const FoodItem = ({ image, name, price, desc, id }) => {
         <div className="price-and-weight">
 
         <p className="food-item-price">&#x20B9;{priceValue.toFixed(2)}</p>
-        <div className={weightValue === 1? 'food-item-weight-container' : 'bg-white food-item-weight-container'}>
+        <div className="food-item-weight-container">
           <img
             src={assets.remove_icon_red}
             onClick={() => handleWeightChange('decrement')}
             alt=""
-            className={weightValue === 1? 'hidden' : ''} // add monochrome class if weight is 1 kg
+            className={weightValue === 1? 'monochrome' : ''} // add monochrome class if weight is 1 kg
             />
           <span className="food-item-weight">{weightValue} kg</span>
           <img src={assets.add_icon_green} onClick={() => handleWeightChange('increment')} alt="" />
         </div>
             </div>
-      </div>
-    </div>
-  );
-};
+        </div>
+    )
+}
 
-export default FoodItem;
+export default FoodItem

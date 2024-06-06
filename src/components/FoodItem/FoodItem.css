@@ -48,7 +48,6 @@
 }
 .food-item-info{
     padding: 20px;
-    position: relative;
     
 }
 .food-item-name-rating{
@@ -73,6 +72,7 @@
     font-size: 22px;
     font-weight: 500;
     margin: 10px 0px;
+<<<<<<< HEAD
 }
 
 .monochrome {
@@ -102,4 +102,6 @@
 
 .bg-light {
     background-color: #f8f9fa !important;
+=======
+>>>>>>> parent of 999019b (created weight selection feature for cakes)
 }
