@@ -64,7 +64,7 @@ const Navbar = () => {
         <div className="menu-icon" onClick={toggleMenu}>
           {menuOpen ? <FaTimes /> : <FaBars />}
         </div>
-        <button className='whatsapp-btn mobile-hide' onClick={handleWhatsapp}>Submit your ideas</button>
+        <button className='whatsapp-btn mobile-hide' onClick={handleWhatsapp}>Order a Custom cake</button>
       </div>
     </div>
   );
