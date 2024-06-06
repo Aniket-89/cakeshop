@@ -79,14 +79,27 @@
     filter: grayscale(100%);
 }
 
+.price-and-weight {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .food-item-weight-container {
-    position: absolute;
-    bottom: 15px;
-    right: 15px;
+
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 6px;
+    height: fit-content;
+    padding: 4px;
     border-radius: 50px;
-    background-color: white;
+    /* background-color: white; */
+}
+
+.hidden {
+    display: none;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
 }
